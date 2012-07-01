@@ -66,6 +66,7 @@
 /*
  * Factorial function: computes n! for n greater than or equal to zero.
  */
+int factorial(int n); // Prototype
 int
 factorial(int n)
 {
@@ -85,6 +86,7 @@ factorial(int n)
 /*
  * Combination function: computes the number of combinations of n items taken r at a time
  */
+int combination(int n, int r); // Prototype
 int
 combination(int n, int r)
 {
