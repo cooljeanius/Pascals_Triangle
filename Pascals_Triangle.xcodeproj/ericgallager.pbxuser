@@ -3,16 +3,19 @@
 	08FB7793FE84155DC02AAC07 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = A5EB31D615782C55006BA6A0 /* Pascals_Triangle */;
-		activeTarget = 8DD76FA90486AB0100D96B5E /* Pascals_Triangle */;
+		activeTarget = A5B50C4A15A0A6A800B7FDF9 /* libfactorial_dynamic */;
+		addToTargets = (
+			8DD76FA90486AB0100D96B5E /* Pascals_Triangle */,
+		);
 		breakpoints = (
-			A5DD92651582B4AF0077CC61 /* main_Pascals_Triangle.c:82 */,
-			A5DD92671582B4B60077CC61 /* main_Pascals_Triangle.c:93 */,
-			A5DD92691582B4BB0077CC61 /* main_Pascals_Triangle.c:105 */,
-			A5DD926B1582B4BF0077CC61 /* main_Pascals_Triangle.c:107 */,
-			A5DD926D1582B4C20077CC61 /* main_Pascals_Triangle.c:113 */,
-			A5DD926F1582B4C30077CC61 /* main_Pascals_Triangle.c:115 */,
-			A5DD92711582B4C40077CC61 /* main_Pascals_Triangle.c:120 */,
-			A5DD92731582B4C60077CC61 /* main_Pascals_Triangle.c:124 */,
+			A5DD92651582B4AF0077CC61 /* main_Pascals_Triangle.c:83 */,
+			A5DD92671582B4B60077CC61 /* main_Pascals_Triangle.c:95 */,
+			A5DD92691582B4BB0077CC61 /* main_Pascals_Triangle.c:107 */,
+			A5DD926B1582B4BF0077CC61 /* main_Pascals_Triangle.c:109 */,
+			A5DD926D1582B4C20077CC61 /* main_Pascals_Triangle.c:115 */,
+			A5DD926F1582B4C30077CC61 /* main_Pascals_Triangle.c:117 */,
+			A5DD92711582B4C40077CC61 /* main_Pascals_Triangle.c:122 */,
+			A5DD92731582B4C60077CC61 /* main_Pascals_Triangle.c:126 */,
 		);
 		codeSenseManager = A5EB31DC15782C64006BA6A0 /* Code sense */;
 		executables = (
@@ -65,12 +68,37 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 360945293;
-			PBXWorkspaceStateSaveDate = 360945293;
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					794,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 362849935;
+			PBXWorkspaceStateSaveDate = 362849935;
 		};
 		perUserProjectItems = {
-			A5DD93161583975A0077CC61 /* PBXTextBookmark */ = A5DD93161583975A0077CC61 /* PBXTextBookmark */;
-			A5DD9317158397630077CC61 /* PBXTextBookmark */ = A5DD9317158397630077CC61 /* PBXTextBookmark */;
+			A5B50C0F15A0A3C400B7FDF9 /* PBXTextBookmark */ = A5B50C0F15A0A3C400B7FDF9 /* PBXTextBookmark */;
+			A5B50C1615A0A45700B7FDF9 /* PBXTextBookmark */ = A5B50C1615A0A45700B7FDF9 /* PBXTextBookmark */;
+			A5B50C1C15A0A4A900B7FDF9 /* PBXTextBookmark */ = A5B50C1C15A0A4A900B7FDF9 /* PBXTextBookmark */;
+			A5B50C6E15A0A81500B7FDF9 /* PBXTextBookmark */ = A5B50C6E15A0A81500B7FDF9 /* PBXTextBookmark */;
+			A5B50C7015A0A84A00B7FDF9 /* PBXTextBookmark */ = A5B50C7015A0A84A00B7FDF9 /* PBXTextBookmark */;
 		};
 		sourceControlManager = A5EB31DB15782C64006BA6A0 /* Source Control */;
 		userBuildSettings = {
@@ -78,9 +106,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* main_Pascals_Triangle.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2245, 1651}}";
-			sepNavSelRange = "{5021, 69}";
-			sepNavVisRange = "{408, 1648}";
+			sepNavIntBoundsRect = "{{0, 0}, {2014, 1768}}";
+			sepNavSelRange = "{3832, 0}";
+			sepNavVisRange = "{3288, 647}";
 		};
 	};
 	8DD76FA90486AB0100D96B5E /* Pascals_Triangle */ = {
@@ -89,7 +117,77 @@
 			A5EB31D615782C55006BA6A0 /* Pascals_Triangle */,
 		);
 	};
-	A5DD92651582B4AF0077CC61 /* main_Pascals_Triangle.c:82 */ = {
+	A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 234}}";
+			sepNavSelRange = "{203, 0}";
+			sepNavVisRange = "{0, 303}";
+		};
+	};
+	A5B50BE4159FE84D00B7FDF9 /* libfactorial.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 442}}";
+			sepNavSelRange = "{402, 0}";
+			sepNavVisRange = "{191, 397}";
+		};
+	};
+	A5B50BEB15A0A27D00B7FDF9 /* libfactorial_static */ = {
+		activeExec = 0;
+	};
+	A5B50C0F15A0A3C400B7FDF9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main_Pascals_Triangle.c */;
+		name = "main_Pascals_Triangle.c: 89";
+		rLen = 0;
+		rLoc = 3832;
+		rType = 0;
+		vrLen = 647;
+		vrLoc = 3288;
+	};
+	A5B50C1615A0A45700B7FDF9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6A0FF2C0290799A04C91782 /* Pascals_Triangle.1 */;
+		name = "Pascals_Triangle.1: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 0;
+	};
+	A5B50C1C15A0A4A900B7FDF9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5B50BE4159FE84D00B7FDF9 /* libfactorial.c */;
+		name = "libfactorial.c: 21";
+		rLen = 0;
+		rLoc = 402;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 3;
+	};
+	A5B50C4A15A0A6A800B7FDF9 /* libfactorial_dynamic */ = {
+		activeExec = 0;
+	};
+	A5B50C6E15A0A81500B7FDF9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */;
+		name = "libfactorial.h: 11";
+		rLen = 0;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 303;
+		vrLoc = 0;
+	};
+	A5B50C7015A0A84A00B7FDF9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */;
+		name = "libfactorial.h: 11";
+		rLen = 0;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 0;
+	};
+	A5DD92651582B4AF0077CC61 /* main_Pascals_Triangle.c:83 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -101,13 +199,13 @@
 		functionName = "factorial()";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 82;
+		lineNumber = 83;
 		location = Pascals_Triangle;
-		modificationTime = 360945489.211848;
+		modificationTime = 362850069.089799;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
-	A5DD92671582B4B60077CC61 /* main_Pascals_Triangle.c:93 */ = {
+	A5DD92671582B4B60077CC61 /* main_Pascals_Triangle.c:95 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -119,31 +217,13 @@
 		functionName = "combination()";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 93;
+		lineNumber = 95;
 		location = Pascals_Triangle;
-		modificationTime = 360945489.212222;
+		modificationTime = 362850069.09091;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
-	A5DD92691582B4BB0077CC61 /* main_Pascals_Triangle.c:105 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 08FB7796FE84155DC02AAC07 /* main_Pascals_Triangle.c */;
-		functionName = "main()";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 105;
-		location = Pascals_Triangle;
-		modificationTime = 360945489.212579;
-		originalNumberOfMultipleMatches = 1;
-		state = 2;
-	};
-	A5DD926B1582B4BF0077CC61 /* main_Pascals_Triangle.c:107 */ = {
+	A5DD92691582B4BB0077CC61 /* main_Pascals_Triangle.c:107 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -157,11 +237,11 @@
 		ignoreCount = 0;
 		lineNumber = 107;
 		location = Pascals_Triangle;
-		modificationTime = 360945489.212932;
+		modificationTime = 362850069.091745;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
-	A5DD926D1582B4C20077CC61 /* main_Pascals_Triangle.c:113 */ = {
+	A5DD926B1582B4BF0077CC61 /* main_Pascals_Triangle.c:109 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -173,13 +253,13 @@
 		functionName = "main()";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 113;
+		lineNumber = 109;
 		location = Pascals_Triangle;
-		modificationTime = 360945489.213286;
+		modificationTime = 362850069.092475;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
-	A5DD926F1582B4C30077CC61 /* main_Pascals_Triangle.c:115 */ = {
+	A5DD926D1582B4C20077CC61 /* main_Pascals_Triangle.c:115 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -193,11 +273,11 @@
 		ignoreCount = 0;
 		lineNumber = 115;
 		location = Pascals_Triangle;
-		modificationTime = 360945489.213639;
+		modificationTime = 362850069.093124;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
-	A5DD92711582B4C40077CC61 /* main_Pascals_Triangle.c:120 */ = {
+	A5DD926F1582B4C30077CC61 /* main_Pascals_Triangle.c:117 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -209,13 +289,13 @@
 		functionName = "main()";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 120;
+		lineNumber = 117;
 		location = Pascals_Triangle;
-		modificationTime = 360945489.214009;
+		modificationTime = 362850069.093638;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
-	A5DD92731582B4C60077CC61 /* main_Pascals_Triangle.c:124 */ = {
+	A5DD92711582B4C40077CC61 /* main_Pascals_Triangle.c:122 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -227,31 +307,29 @@
 		functionName = "main()";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 124;
+		lineNumber = 122;
 		location = Pascals_Triangle;
-		modificationTime = 360945489.214438;
+		modificationTime = 362850069.09452;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
-	A5DD93161583975A0077CC61 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main_Pascals_Triangle.c */;
-		name = "main_Pascals_Triangle.c: 116";
-		rLen = 69;
-		rLoc = 5021;
-		rType = 0;
-		vrLen = 1156;
-		vrLoc = 496;
-	};
-	A5DD9317158397630077CC61 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main_Pascals_Triangle.c */;
-		name = "main_Pascals_Triangle.c: 116";
-		rLen = 69;
-		rLoc = 5021;
-		rType = 0;
-		vrLen = 1648;
-		vrLoc = 408;
+	A5DD92731582B4C60077CC61 /* main_Pascals_Triangle.c:126 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main_Pascals_Triangle.c */;
+		functionName = "main()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 126;
+		location = Pascals_Triangle;
+		modificationTime = 362850069.096659;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
 	};
 	A5EB31D615782C55006BA6A0 /* Pascals_Triangle */ = {
 		isa = PBXExecutable;
@@ -298,5 +376,12 @@
 	A5EB31DC15782C64006BA6A0 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	C6A0FF2C0290799A04C91782 /* Pascals_Triangle.1 */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 507}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1367}";
+		};
 	};
 }
