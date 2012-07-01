@@ -9,14 +9,33 @@
 /* Begin PBXBuildFile section */
 		8DD76FAC0486AB0100D96B5E /* main_Pascals_Triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main_Pascals_Triangle.c */; settings = {ATTRIBUTES = (); }; };
 		8DD76FB00486AB0100D96B5E /* Pascals_Triangle.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* Pascals_Triangle.1 */; };
-		A5B50BE5159FE84D00B7FDF9 /* libfactorial.c in Sources */ = {isa = PBXBuildFile; fileRef = A5B50BE4159FE84D00B7FDF9 /* libfactorial.c */; };
 		A5B50BFD15A0A31C00B7FDF9 /* libfactorial.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */; };
 		A5B50BFE15A0A32000B7FDF9 /* libfactorial.c in Sources */ = {isa = PBXBuildFile; fileRef = A5B50BE4159FE84D00B7FDF9 /* libfactorial.c */; };
 		A5B50BFF15A0A32600B7FDF9 /* libfactorial.h in Sources */ = {isa = PBXBuildFile; fileRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */; };
 		A5B50C5115A0A6E600B7FDF9 /* libfactorial.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */; };
 		A5B50C5215A0A6E900B7FDF9 /* libfactorial.h in Sources */ = {isa = PBXBuildFile; fileRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */; };
 		A5B50C5315A0A6EB00B7FDF9 /* libfactorial.c in Sources */ = {isa = PBXBuildFile; fileRef = A5B50BE4159FE84D00B7FDF9 /* libfactorial.c */; };
+		A5F5254615A0D89A00D8CBF3 /* Pascals_Triangle_linked_to_libfactorial.c in Sources */ = {isa = PBXBuildFile; fileRef = A5F5253215A0D7A100D8CBF3 /* Pascals_Triangle_linked_to_libfactorial.c */; };
+		A5F5256D15A0D94C00D8CBF3 /* libfactorial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B50BEC15A0A27D00B7FDF9 /* libfactorial.a */; };
+		A5F5257015A0D96B00D8CBF3 /* libfactorial.h in Sources */ = {isa = PBXBuildFile; fileRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5F5254915A0D8DF00D8CBF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5B50C4A15A0A6A800B7FDF9 /* libfactorial_dynamic */;
+			remoteInfo = libfactorial_dynamic;
+		};
+		A5F5256A15A0D94100D8CBF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5B50BEB15A0A27D00B7FDF9 /* libfactorial_static */;
+			remoteInfo = libfactorial_static;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
@@ -39,6 +58,8 @@
 		A5B50BEC15A0A27D00B7FDF9 /* libfactorial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libfactorial.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B50C2515A0A59900B7FDF9 /* stdlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdlib.h; sourceTree = "<group>"; };
 		A5B50C4B15A0A6A800B7FDF9 /* libfactorial.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libfactorial.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F5253215A0D7A100D8CBF3 /* Pascals_Triangle_linked_to_libfactorial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Pascals_Triangle_linked_to_libfactorial.c; sourceTree = "<group>"; };
+		A5F5253915A0D84800D8CBF3 /* Pascals_Triangle_linked */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pascals_Triangle_linked; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A0FF2C0290799A04C91782 /* Pascals_Triangle.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Pascals_Triangle.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +85,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5F5253715A0D84800D8CBF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F5256D15A0D94C00D8CBF3 /* libfactorial.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -73,6 +102,7 @@
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6A0FF2B0290797F04C91782 /* Documentation */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
+				A5F5253215A0D7A100D8CBF3 /* Pascals_Triangle_linked_to_libfactorial.c */,
 			);
 			name = Pascals_Triangle;
 			sourceTree = "<group>";
@@ -92,6 +122,7 @@
 				8DD76FB20486AB0100D96B5E /* Pascals_Triangle */,
 				A5B50BEC15A0A27D00B7FDF9 /* libfactorial.a */,
 				A5B50C4B15A0A6A800B7FDF9 /* libfactorial.dylib */,
+				A5F5253915A0D84800D8CBF3 /* Pascals_Triangle_linked */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,6 +219,24 @@
 			productReference = A5B50C4B15A0A6A800B7FDF9 /* libfactorial.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
+		A5F5253815A0D84800D8CBF3 /* Pascals_Triangle_linked */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F5254415A0D84D00D8CBF3 /* Build configuration list for PBXNativeTarget "Pascals_Triangle_linked" */;
+			buildPhases = (
+				A5F5253715A0D84800D8CBF3 /* Frameworks */,
+				A5F5253615A0D84800D8CBF3 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5F5254A15A0D8DF00D8CBF3 /* PBXTargetDependency */,
+				A5F5256B15A0D94100D8CBF3 /* PBXTargetDependency */,
+			);
+			name = Pascals_Triangle_linked;
+			productName = Pascals_Triangle_linked;
+			productReference = A5F5253915A0D84800D8CBF3 /* Pascals_Triangle_linked */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,6 +259,7 @@
 				8DD76FA90486AB0100D96B5E /* Pascals_Triangle */,
 				A5B50BEB15A0A27D00B7FDF9 /* libfactorial_static */,
 				A5B50C4A15A0A6A800B7FDF9 /* libfactorial_dynamic */,
+				A5F5253815A0D84800D8CBF3 /* Pascals_Triangle_linked */,
 			);
 		};
 /* End PBXProject section */
@@ -220,7 +270,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76FAC0486AB0100D96B5E /* main_Pascals_Triangle.c in Sources */,
-				A5B50BE5159FE84D00B7FDF9 /* libfactorial.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +291,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5F5253615A0D84800D8CBF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F5257015A0D96B00D8CBF3 /* libfactorial.h in Sources */,
+				A5F5254615A0D89A00D8CBF3 /* Pascals_Triangle_linked_to_libfactorial.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5F5254A15A0D8DF00D8CBF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5B50C4A15A0A6A800B7FDF9 /* libfactorial_dynamic */;
+			targetProxy = A5F5254915A0D8DF00D8CBF3 /* PBXContainerItemProxy */;
+		};
+		A5F5256B15A0D94100D8CBF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5B50BEB15A0A27D00B7FDF9 /* libfactorial_static */;
+			targetProxy = A5F5256A15A0D94100D8CBF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB928608733DD80010E9CD /* Debug */ = {
@@ -409,6 +480,36 @@
 			};
 			name = Release;
 		};
+		A5F5253B15A0D84C00D8CBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = Pascals_Triangle_linked;
+			};
+			name = Debug;
+		};
+		A5F5253C15A0D84C00D8CBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = Pascals_Triangle_linked;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -444,6 +545,15 @@
 			buildConfigurations = (
 				A5B50C4D15A0A6A900B7FDF9 /* Debug */,
 				A5B50C4E15A0A6A900B7FDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F5254415A0D84D00D8CBF3 /* Build configuration list for PBXNativeTarget "Pascals_Triangle_linked" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F5253B15A0D84C00D8CBF3 /* Debug */,
+				A5F5253C15A0D84C00D8CBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

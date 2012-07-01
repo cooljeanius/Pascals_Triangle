@@ -20,6 +20,7 @@
 		codeSenseManager = A5EB31DC15782C64006BA6A0 /* Code sense */;
 		executables = (
 			A5EB31D615782C55006BA6A0 /* Pascals_Triangle */,
+			A5F5253A15A0D84900D8CBF3 /* Pascals_Triangle_linked */,
 		);
 		perUserDictionary = {
 			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
@@ -90,15 +91,16 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 362849935;
-			PBXWorkspaceStateSaveDate = 362849935;
+			PBXPerProjectTemplateStateSaveDate = 362862447;
+			PBXWorkspaceStateSaveDate = 362862447;
 		};
 		perUserProjectItems = {
-			A5B50C0F15A0A3C400B7FDF9 /* PBXTextBookmark */ = A5B50C0F15A0A3C400B7FDF9 /* PBXTextBookmark */;
-			A5B50C1615A0A45700B7FDF9 /* PBXTextBookmark */ = A5B50C1615A0A45700B7FDF9 /* PBXTextBookmark */;
-			A5B50C1C15A0A4A900B7FDF9 /* PBXTextBookmark */ = A5B50C1C15A0A4A900B7FDF9 /* PBXTextBookmark */;
-			A5B50C6E15A0A81500B7FDF9 /* PBXTextBookmark */ = A5B50C6E15A0A81500B7FDF9 /* PBXTextBookmark */;
-			A5B50C7015A0A84A00B7FDF9 /* PBXTextBookmark */ = A5B50C7015A0A84A00B7FDF9 /* PBXTextBookmark */;
+			A5F5253E15A0D84C00D8CBF3 /* PBXTextBookmark */ = A5F5253E15A0D84C00D8CBF3 /* PBXTextBookmark */;
+			A5F5255C15A0D8F900D8CBF3 /* PBXTextBookmark */ = A5F5255C15A0D8F900D8CBF3 /* PBXTextBookmark */;
+			A5F5255E15A0D8F900D8CBF3 /* PBXTextBookmark */ = A5F5255E15A0D8F900D8CBF3 /* PBXTextBookmark */;
+			A5F5257315A0D97F00D8CBF3 /* PBXTextBookmark */ = A5F5257315A0D97F00D8CBF3 /* PBXTextBookmark */;
+			A5F5258715A0DA8100D8CBF3 /* PBXTextBookmark */ = A5F5258715A0DA8100D8CBF3 /* PBXTextBookmark */;
+			A5F5258915A0DACC00D8CBF3 /* PBXTextBookmark */ = A5F5258915A0DACC00D8CBF3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = A5EB31DB15782C64006BA6A0 /* Source Control */;
 		userBuildSettings = {
@@ -106,9 +108,9 @@
 	};
 	08FB7796FE84155DC02AAC07 /* main_Pascals_Triangle.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2014, 1768}}";
-			sepNavSelRange = "{3832, 0}";
-			sepNavVisRange = "{3288, 647}";
+			sepNavIntBoundsRect = "{{0, 0}, {2245, 1677}}";
+			sepNavSelRange = "{3692, 1911}";
+			sepNavVisRange = "{4128, 1475}";
 		};
 	};
 	8DD76FA90486AB0100D96B5E /* Pascals_Triangle */ = {
@@ -119,73 +121,23 @@
 	};
 	A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 234}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 336}}";
 			sepNavSelRange = "{203, 0}";
-			sepNavVisRange = "{0, 303}";
+			sepNavVisRange = "{0, 304}";
 		};
 	};
 	A5B50BE4159FE84D00B7FDF9 /* libfactorial.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 442}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 442}}";
 			sepNavSelRange = "{402, 0}";
-			sepNavVisRange = "{191, 397}";
+			sepNavVisRange = "{43, 603}";
 		};
 	};
 	A5B50BEB15A0A27D00B7FDF9 /* libfactorial_static */ = {
 		activeExec = 0;
 	};
-	A5B50C0F15A0A3C400B7FDF9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* main_Pascals_Triangle.c */;
-		name = "main_Pascals_Triangle.c: 89";
-		rLen = 0;
-		rLoc = 3832;
-		rType = 0;
-		vrLen = 647;
-		vrLoc = 3288;
-	};
-	A5B50C1615A0A45700B7FDF9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = C6A0FF2C0290799A04C91782 /* Pascals_Triangle.1 */;
-		name = "Pascals_Triangle.1: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1367;
-		vrLoc = 0;
-	};
-	A5B50C1C15A0A4A900B7FDF9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A5B50BE4159FE84D00B7FDF9 /* libfactorial.c */;
-		name = "libfactorial.c: 21";
-		rLen = 0;
-		rLoc = 402;
-		rType = 0;
-		vrLen = 643;
-		vrLoc = 3;
-	};
 	A5B50C4A15A0A6A800B7FDF9 /* libfactorial_dynamic */ = {
 		activeExec = 0;
-	};
-	A5B50C6E15A0A81500B7FDF9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */;
-		name = "libfactorial.h: 11";
-		rLen = 0;
-		rLoc = 203;
-		rType = 0;
-		vrLen = 303;
-		vrLoc = 0;
-	};
-	A5B50C7015A0A84A00B7FDF9 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */;
-		name = "libfactorial.h: 11";
-		rLen = 0;
-		rLoc = 203;
-		rType = 0;
-		vrLen = 304;
-		vrLoc = 0;
 	};
 	A5DD92651582B4AF0077CC61 /* main_Pascals_Triangle.c:83 */ = {
 		isa = PBXFileBreakpoint;
@@ -201,7 +153,7 @@
 		ignoreCount = 0;
 		lineNumber = 83;
 		location = Pascals_Triangle;
-		modificationTime = 362850069.089799;
+		modificationTime = 362863221.877068;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -219,7 +171,7 @@
 		ignoreCount = 0;
 		lineNumber = 95;
 		location = Pascals_Triangle;
-		modificationTime = 362850069.09091;
+		modificationTime = 362863221.877727;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -237,7 +189,7 @@
 		ignoreCount = 0;
 		lineNumber = 107;
 		location = Pascals_Triangle;
-		modificationTime = 362850069.091745;
+		modificationTime = 362863221.878147;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -255,7 +207,7 @@
 		ignoreCount = 0;
 		lineNumber = 109;
 		location = Pascals_Triangle;
-		modificationTime = 362850069.092475;
+		modificationTime = 362863221.878553;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -273,7 +225,7 @@
 		ignoreCount = 0;
 		lineNumber = 115;
 		location = Pascals_Triangle;
-		modificationTime = 362850069.093124;
+		modificationTime = 362863221.879005;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -291,7 +243,7 @@
 		ignoreCount = 0;
 		lineNumber = 117;
 		location = Pascals_Triangle;
-		modificationTime = 362850069.093638;
+		modificationTime = 362863221.879414;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -309,7 +261,7 @@
 		ignoreCount = 0;
 		lineNumber = 122;
 		location = Pascals_Triangle;
-		modificationTime = 362850069.09452;
+		modificationTime = 362863221.879858;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -327,7 +279,7 @@
 		ignoreCount = 0;
 		lineNumber = 126;
 		location = Pascals_Triangle;
-		modificationTime = 362850069.096659;
+		modificationTime = 362863221.880298;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -377,11 +329,114 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
+	A5F5253215A0D7A100D8CBF3 /* Pascals_Triangle_linked_to_libfactorial.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2245, 780}}";
+			sepNavSelRange = "{366, 0}";
+			sepNavVisRange = "{374, 1092}";
+		};
+	};
+	A5F5253815A0D84800D8CBF3 /* Pascals_Triangle_linked */ = {
+		activeExec = 0;
+		executables = (
+			A5F5253A15A0D84900D8CBF3 /* Pascals_Triangle_linked */,
+		);
+	};
+	A5F5253A15A0D84900D8CBF3 /* Pascals_Triangle_linked */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Pascals_Triangle_linked;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	A5F5253E15A0D84C00D8CBF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main_Pascals_Triangle.c */;
+		name = "main_Pascals_Triangle.c: 86";
+		rLen = 1911;
+		rLoc = 3692;
+		rType = 0;
+		vrLen = 1475;
+		vrLoc = 4128;
+	};
+	A5F5255C15A0D8F900D8CBF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C6A0FF2C0290799A04C91782 /* Pascals_Triangle.1 */;
+		name = "Pascals_Triangle.1: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1312;
+		vrLoc = 0;
+	};
+	A5F5255E15A0D8F900D8CBF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5B50BE4159FE84D00B7FDF9 /* libfactorial.c */;
+		name = "libfactorial.c: 21";
+		rLen = 0;
+		rLoc = 402;
+		rType = 0;
+		vrLen = 603;
+		vrLoc = 43;
+	};
+	A5F5257315A0D97F00D8CBF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5F5253215A0D7A100D8CBF3 /* Pascals_Triangle_linked_to_libfactorial.c */;
+		name = "Pascals_Triangle_linked_to_libfactorial.c: 8";
+		rLen = 0;
+		rLoc = 366;
+		rType = 0;
+		vrLen = 1092;
+		vrLoc = 374;
+	};
+	A5F5258715A0DA8100D8CBF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */;
+		name = "libfactorial.h: 11";
+		rLen = 0;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 303;
+		vrLoc = 0;
+	};
+	A5F5258915A0DACC00D8CBF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */;
+		name = "libfactorial.h: 11";
+		rLen = 0;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 304;
+		vrLoc = 0;
+	};
 	C6A0FF2C0290799A04C91782 /* Pascals_Triangle.1 */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1012, 507}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1367}";
+			sepNavVisRange = "{0, 1312}";
 		};
 	};
 }
