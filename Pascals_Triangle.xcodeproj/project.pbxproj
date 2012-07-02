@@ -25,14 +25,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5B50C4A15A0A6A800B7FDF9 /* libfactorial_dynamic */;
+			remoteGlobalIDString = A5B50C4A15A0A6A800B7FDF9;
 			remoteInfo = libfactorial_dynamic;
 		};
 		A5F5256A15A0D94100D8CBF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5B50BEB15A0A27D00B7FDF9 /* libfactorial_static */;
+			remoteGlobalIDString = A5B50BEB15A0A27D00B7FDF9;
 			remoteInfo = libfactorial_static;
 		};
 /* End PBXContainerItemProxy section */
@@ -60,6 +60,8 @@
 		A5B50C4B15A0A6A800B7FDF9 /* libfactorial.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libfactorial.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F5253215A0D7A100D8CBF3 /* Pascals_Triangle_linked_to_libfactorial.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Pascals_Triangle_linked_to_libfactorial.c; sourceTree = "<group>"; };
 		A5F5253915A0D84800D8CBF3 /* Pascals_Triangle_linked */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pascals_Triangle_linked; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F525AE15A104FB00D8CBF3 /* gdb.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gdb.log; sourceTree = "<group>"; };
+		A5F525AF15A1050600D8CBF3 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
 		C6A0FF2C0290799A04C91782 /* Pascals_Triangle.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Pascals_Triangle.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				C6A0FF2C0290799A04C91782 /* Pascals_Triangle.1 */,
+				A5F525AE15A104FB00D8CBF3 /* gdb.log */,
+				A5F525AF15A1050600D8CBF3 /* readme.md */,
 			);
 			name = Documentation;
 			sourceTree = "<group>";

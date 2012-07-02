@@ -6,6 +6,9 @@
 		activeTarget = A5B50C4A15A0A6A800B7FDF9 /* libfactorial_dynamic */;
 		addToTargets = (
 			8DD76FA90486AB0100D96B5E /* Pascals_Triangle */,
+			A5B50BEB15A0A27D00B7FDF9 /* libfactorial_static */,
+			A5B50C4A15A0A6A800B7FDF9 /* libfactorial_dynamic */,
+			A5F5253815A0D84800D8CBF3 /* Pascals_Triangle_linked */,
 		);
 		breakpoints = (
 			A5DD92651582B4AF0077CC61 /* main_Pascals_Triangle.c:83 */,
@@ -91,16 +94,18 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 362862447;
-			PBXWorkspaceStateSaveDate = 362862447;
+			PBXPerProjectTemplateStateSaveDate = 362874085;
+			PBXWorkspaceStateSaveDate = 362874085;
 		};
 		perUserProjectItems = {
 			A5F5253E15A0D84C00D8CBF3 /* PBXTextBookmark */ = A5F5253E15A0D84C00D8CBF3 /* PBXTextBookmark */;
 			A5F5255C15A0D8F900D8CBF3 /* PBXTextBookmark */ = A5F5255C15A0D8F900D8CBF3 /* PBXTextBookmark */;
 			A5F5255E15A0D8F900D8CBF3 /* PBXTextBookmark */ = A5F5255E15A0D8F900D8CBF3 /* PBXTextBookmark */;
 			A5F5257315A0D97F00D8CBF3 /* PBXTextBookmark */ = A5F5257315A0D97F00D8CBF3 /* PBXTextBookmark */;
-			A5F5258715A0DA8100D8CBF3 /* PBXTextBookmark */ = A5F5258715A0DA8100D8CBF3 /* PBXTextBookmark */;
-			A5F5258915A0DACC00D8CBF3 /* PBXTextBookmark */ = A5F5258915A0DACC00D8CBF3 /* PBXTextBookmark */;
+			A5F525B715A1060000D8CBF3 /* PBXTextBookmark */ = A5F525B715A1060000D8CBF3 /* PBXTextBookmark */;
+			A5F525B815A1060000D8CBF3 /* PBXTextBookmark */ = A5F525B815A1060000D8CBF3 /* PBXTextBookmark */;
+			A5F525B915A1060000D8CBF3 /* PBXBookmark */ = A5F525B915A1060000D8CBF3 /* PBXBookmark */;
+			A5F525BA15A1060000D8CBF3 /* PBXTextBookmark */ = A5F525BA15A1060000D8CBF3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = A5EB31DB15782C64006BA6A0 /* Source Control */;
 		userBuildSettings = {
@@ -121,7 +126,7 @@
 	};
 	A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 336}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 326}}";
 			sepNavSelRange = "{203, 0}";
 			sepNavVisRange = "{0, 304}";
 		};
@@ -243,7 +248,7 @@
 		ignoreCount = 0;
 		lineNumber = 117;
 		location = Pascals_Triangle;
-		modificationTime = 362863221.879414;
+		modificationTime = 362863221.8794139;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -261,7 +266,7 @@
 		ignoreCount = 0;
 		lineNumber = 122;
 		location = Pascals_Triangle;
-		modificationTime = 362863221.879858;
+		modificationTime = 362863221.8798579;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -412,17 +417,21 @@
 		vrLen = 1092;
 		vrLoc = 374;
 	};
-	A5F5258715A0DA8100D8CBF3 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */;
-		name = "libfactorial.h: 11";
-		rLen = 0;
-		rLoc = 203;
-		rType = 0;
-		vrLen = 303;
-		vrLoc = 0;
+	A5F525AE15A104FB00D8CBF3 /* gdb.log */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2693, 6981}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2013}";
+		};
 	};
-	A5F5258915A0DACC00D8CBF3 /* PBXTextBookmark */ = {
+	A5F525AF15A1050600D8CBF3 /* readme.md */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3568, 326}}";
+			sepNavSelRange = "{1131, 0}";
+			sepNavVisRange = "{0, 1131}";
+		};
+	};
+	A5F525B715A1060000D8CBF3 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = A5B50BE3159FE84D00B7FDF9 /* libfactorial.h */;
 		name = "libfactorial.h: 11";
@@ -430,6 +439,30 @@
 		rLoc = 203;
 		rType = 0;
 		vrLen = 304;
+		vrLoc = 0;
+	};
+	A5F525B815A1060000D8CBF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5F525AE15A104FB00D8CBF3 /* gdb.log */;
+		name = "gdb.log: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2013;
+		vrLoc = 0;
+	};
+	A5F525B915A1060000D8CBF3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A5F525AF15A1050600D8CBF3 /* readme.md */;
+	};
+	A5F525BA15A1060000D8CBF3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A5F525AF15A1050600D8CBF3 /* readme.md */;
+		name = "readme.md: 12";
+		rLen = 0;
+		rLoc = 1131;
+		rType = 0;
+		vrLen = 1131;
 		vrLoc = 0;
 	};
 	C6A0FF2C0290799A04C91782 /* Pascals_Triangle.1 */ = {
