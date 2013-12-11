@@ -18,7 +18,7 @@ int combination(int n, int r); // Prototype
 int
 combination(int n, int r)
 {
-	int c = factorial(n) / (factorial(r) * factorial(n-r));
+	int c = factorial(n) / (factorial(r) * factorial(n-r)); // factorial() is from "libfactorial.h"
 	return (c);
 	/*	printf("\n c is %d \n", c); // statement for debugging */
 }
